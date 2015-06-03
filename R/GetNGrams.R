@@ -1,7 +1,7 @@
-#' A Function to clean a single input string by removing punctuation and numbers and tokenizing it.
+#' A function to get n-grams from a tokenized sentence.
 #'
 #' @param words A vector of strings that represents a tokenized document
-#' @param n The size of the n-gram window
+#' @param n The size of the n-gram window desired
 #' @export
 
 GetNGrams <- function(words,n){

@@ -2,16 +2,16 @@
 % Please edit documentation in R/GetNGrams.R
 \name{GetNGrams}
 \alias{GetNGrams}
-\title{A Function to clean a single input string by removing punctuation and numbers and tokenizing it.}
+\title{A function to get n-grams from a tokenized sentence.}
 \usage{
 GetNGrams(words, n)
 }
 \arguments{
 \item{words}{A vector of strings that represents a tokenized document}
 
-\item{n}{The size of the n-gram window}
+\item{n}{The size of the n-gram window desired}
 }
 \description{
-A Function to clean a single input string by removing punctuation and numbers and tokenizing it.
+A function to get n-grams from a tokenized sentence.
 }
 
