@@ -1,0 +1,10 @@
+Package: TestPackage
+Type: Package
+Title: An Example Package: Un Essai
+Version: 0.1
+Date: 2015-06-03
+Authors@R: person("Brian", "Dillon", email = "brian@linguist.umass.edu", role = c("aut", "cre"))
+Description: It does a single thing
+License: GPLv3
+LazyData: TRUE
+Imports: stringr
